@@ -1,0 +1,153 @@
+
+@media screen and (max-width: 1100px){
+	 .main-section-in{
+		padding-top: 20%;
+		padding-bottom: 20%;
+	 }
+}
+
+@media screen and (max-width: 1050px) {
+	.section-header {
+		flex-direction: column;
+	}
+
+	.service__title {
+		align-self: center;
+		max-width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.service__title::after {
+		content: none;
+	}
+
+	.service__text {
+		text-align: center;
+		max-width: 100%;
+		padding: 20px;
+		margin: 0;
+	}
+
+	.service__text::before {
+		content: none;
+	}
+
+	.footer-social {
+		max-width: 60%;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.header{
+		text-align: center;
+	}
+
+	.header-in{
+		display: block;
+	}
+
+	.logo{
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+
+	.main-nav a{
+		display: inline-block;
+		margin-bottom: 10px;
+		font-size: 15px;
+		padding: 5px 10px 4px;
+		background: rgba(0, 0, 0, 0.2);
+	}
+
+	.main-section-in {
+		padding-top: 15%;
+		padding-bottom: 15%;
+		font-size: 36px;
+	}
+
+	.service-block {
+		padding: 17px 12px 31px 14px;
+	}
+}
+
+@media screen and (max-width: 830px) {
+	.service-block__title {
+		font-size: 20px;
+	}
+
+	.service-block__text {
+		font-size: 16px;
+		margin-bottom: 30px;
+	}
+
+	.service-block__link {
+		font-size: 16px;
+	}
+
+	.footer-social {
+		max-width: 60%;
+		justify-content: space-between;
+	}
+
+}
+
+
+@media screen and (max-width: 680px){
+		.main-section-in{
+			font-size: 30px;
+		}
+
+		.section-header {
+			margin-bottom: 60px;
+		}
+		
+		.service__title {
+			font-size: 35px;
+		}
+
+		.service__text {
+			font-size: 16px;
+			max-width: 80%;
+			align-self: center;
+			padding: 20px 0 0 0;
+		}
+
+		.service-blocks {
+			flex-direction: column;
+		}
+
+		.service-block {
+			max-width: 100%;
+			margin-bottom: 30px;
+		}
+
+		.footer-social {
+			justify-content: space-around;
+			flex-wrap: wrap;
+			padding: 3% 0;
+		}
+
+		.footer-social a {
+			width: 40px;
+			height: 40px;
+			margin: 10px 2%;
+		}
+
+		.icon-google-plus::before {
+			font-size: 1em;
+		}
+
+		.fab::before {
+			font-size: 1em;
+		}
+
+		.footer-text {
+			font-size: 16px;
+			padding: 2% 0 7% 0;
+		}
+
+}
+
+
+
